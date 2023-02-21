@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>examen aplicacions webs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"> <img src="img/marca.png" alt="cv"> </a>
+        <p class="enlaces">
+            <a href="index.html">home</a> - Horarios - Servicios - <a href="contacto.html">Contacto</a> - <a href="ieselgrao.es">Instituto</a>
+        </p>
+    </header>
+    <main class="contacte">
+        <form action="recepcio.php">
+        <p>
+            Emplena les teves dades
+        </p>
+        <p>
+            Nom: <input type="text" placeholder="Escriu el nom">      Cognom: <input type="text" placeholder="Escriba el cognom">
+        </p>
+        <p>
+            Data naixement <input type="date">     email <input type="email" placeholder="Escriu el email">
+        </p>
+        <p>
+            Genere: <input type="radio"> Masculí <input type="radio"> Femení <input type="radio"> Neutre
+        </p>
+        <p>
+            Llenguatges coneguts <br>
+            <input type="radio"> HTML <br>
+            <input type="radio"> CSS <br>
+            <input type="radio"> Javascript <br>
+            <input type="radio"> CAP <br>
+        </p>
+        <p>
+        Observacions <textarea name="Observacions" id="observacions" cols="50" rows="10" placeholder="Observacions"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar"> <input type="reset" value="Borrar">
+        </p>
+    </form>
+    </main>
+    <hr>
+    <footer>
+        Valencia developers. A su <span class="servicio">servicio</span> <span class="tachado">de lunes a viernes</span> siempre
+    </footer>
+</body>
+</html>

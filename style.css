@@ -1,0 +1,49 @@
+body {
+    background-color: bisque;
+}
+header {
+    text-align: center;
+}
+p.enlaces {
+    background-color: rgb(0, 233, 241);
+}
+p.texto1 {
+    background-color: white;
+    position: relative;
+    left: 180px;
+}
+p.texto1::first-line {
+    background-color: blue;
+    color: blue;
+}
+p.texto2 {
+    background-color: darkturquoise;
+}
+p.texto2::first-line {
+    background-color: red;
+    color: red;
+}
+img.img1 {
+    position: relative;
+    bottom: 320px;
+
+}
+img.img2 {
+    position: relative;
+    bottom: 170px;
+    left: 1150px;
+}
+main.contacte {
+    inline-block;
+    text-align: center;
+    background-color:  rgb(0, 233, 241);
+}
+footer {
+    text-align: center;
+}
+span.servicio {
+    background-color: yellow;
+}
+span.tachado {
+    text-decoration-line: line-through;
+}
